@@ -7,3 +7,8 @@ server:
     multipart:
       max-file-size: 50MB
       max-request-size: 50MB
+com:
+  tds:
+    url: "http://localhost:8080/v2/appUsersAndProducts"
+  cs:
+    url: "http://localhost:8282/cache/v2/appUsersAndProducts"
